@@ -1,3 +1,10 @@
+<!--
+ * @Author: xxs
+ * @Date: 2024-02-18 13:40:01
+ * @LastEditTime: 2024-02-18 14:07:17
+ * @FilePath: \webview\newpark-web\src\App.vue
+ * @Description: desc
+-->
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
@@ -9,7 +16,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
